@@ -1,15 +1,27 @@
-import './App.css'
+import "./App.css";
+import {
+  NavBar,
+  Welcome,
+  Transactions,
+  Services,
+  Loader,
+  Footer,
+} from "./components";
 
-const  App =() => {
-
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="min-h-screen">
 
-    </>
-  )
-}
+      <div className="gradient-bg-welcome">
+        <NavBar />
+        <Welcome />
+      </div>
+      <Loader />
+      <Services />
+      <Transactions />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
