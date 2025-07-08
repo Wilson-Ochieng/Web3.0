@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ethersproject/providers": "^5.8.0",
+    "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/vite": "^4.1.11",
     "ethers": "^6.15.0",
     "react": "^19.1.0",
